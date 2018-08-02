@@ -1,0 +1,204 @@
+body{
+	font-family: 'Montserrat' !important;
+	background-size:cover;	
+	background-image:url("../imgs/hexagonal-pattern.jpg");
+	background-size:25px 25px;
+
+
+	.row{
+		margin-right:0 !important;
+		margin-left:0 !important;
+	}
+
+
+	.titleLine{
+		margin-top:30px;
+		padding:0px !important;
+		h1 {
+		  position: relative;
+		  text-align: center;
+		  font-weight: 400;
+		}
+
+		h1 span {
+		  background: #fff;
+		  padding: 0 15px;
+		  position: relative;
+		  z-index: 1;
+		}
+
+		h1:before {
+		  background: #000;
+		  content: "";
+		  display: block;
+		  height: 1px;
+		  position: absolute;
+		    top: 50%;
+		  width: 100%;
+		}
+		h1:after {
+		  left: 0;
+		}
+	}
+
+
+	#container{
+		.blocks{
+			margin-top:50px;
+			display: flow-root;
+			img{
+				margin:10px;
+				float:left;
+				width:60px;
+				}
+			h2{
+				font-size: 24px;
+   				font-weight: 300;
+			}
+			p{
+				
+			   display: inline-block;
+		       position: absolute;
+
+			}
+			a{
+				decoration:none;
+				color:#990000;
+				display: inline-block;
+		    position: absolute;
+			}		
+		}
+	}
+
+
+	#pdfBtn{
+		background-color:#990000;
+		color:white;
+		border-radius:0;
+		width:120px;
+		height:40px;
+		border:0;
+		display: block;
+	    margin: 30px auto 0;
+	    text-align:center;
+
+		img{
+			float: left;
+		    width: 20px;
+		    height: 20px;
+		}
+	}
+
+	.round{
+		margin:50px 10px;
+		box-shadow: 2px 2px 2px #888888;
+		padding-bottom:20px;
+		background-color:#fff;
+		border:1px solid #c9c9c9;
+		a{
+			color:black;
+			outline: none !important;
+			text-decoration:none;
+			img{
+				width: 100%;
+			}
+			.title{
+				  float: left;
+				  font-size: 25px;
+				  margin: 30px 0px ;
+				  margin-left: 10px;
+			}
+			.logo{
+			width:100px;
+			height:100px;
+			      margin: 0 auto;
+			    display: block;
+			}
+		}
+	}
+
+
+
+	.count{
+
+	  color:#343434;
+	  font-size: 35px;
+	  text-align: center;
+	 
+	}
+	 .span1{
+	 	margin-left:-10px;
+	  }
+	  .span2{
+	    margin-left: 20px;
+	  }
+	  .span3{
+	    margin-left: 25px;
+	  }
+
+	
+	.students{
+		.caption{
+			background-color: rgba(0,0,0,0.7);
+		    height: 60px;
+		    width: 200px;
+		    top:140px;
+		    z-index: 5;
+		    position: absolute;
+		    text-align:center;	
+		    color:white !important;
+			opacity:0;
+		    -webkit-transition: all 0.5s ease-in-out;
+		    .appear{
+		    		text-decoration:none;
+		 		outline: none !important;
+		    }
+		    a{
+		   		text-decoration:none;
+		 		outline: none !important;
+		    	color:white;	
+			    h4{
+			    	margin-bottom:2px !important;
+			    }
+		    }
+		}
+		img:hover{
+		width:200px;
+		 box-shadow: 0 0 5px rgba(0,0,0,0.8);
+	    -moz-box-shadow: 0 0 5px rgba(0,0,0,0.8);
+	    -webkit-box-shadow: 0 0 5px rgba(0,0,0,0.8);
+	    -o-box-shadow: 0 0 5px rgba(0,0,0,0.8);
+		}
+		img:hover +.caption{
+
+			opacity:1 !important;	
+
+		}
+		.caption:hover{
+		opacity:1 !important;
+
+		}
+	}
+
+	.sponsors{
+		margin:30px auto;
+		a{
+			margin-left:30px;
+			img{
+			margin:0 !important;
+			}
+		}
+
+		a:focus {
+	    outline: none !important;
+		color:transparent;
+	    text-decoration: none;
+	    }
+
+	}
+
+}
+
+.top{
+	padding-top:0;
+}

@@ -1,0 +1,100 @@
+nav{
+	.navbar-right{
+		.username{
+			margin-top: 10px;
+    		color: gray;
+    		margin-right: 10px;
+		}
+	}
+}
+
+.profileInfo{
+margin :auto;
+	width:50%;
+	text-align:center;
+	img{
+		border-radius:100%;
+		width:200px;
+	}
+}
+
+
+.r-container{
+	width:70%;
+	margin:60px auto 30px;
+		
+	.Rounds{
+	width:100%;
+	display:inline-flex;
+	background:white;
+		margin:10px auto;
+		box-shadow: 0 0 5px rgba(0,0,0,0.3);
+		-moz-box-shadow: 0 0 5px rgba(0,0,0,0.3);
+		-webkit-box-shadow: 0 0 5px rgba(0,0,0,0.3);
+		-o-box-shadow: 0 0 5px rgba(0,0,0,0.3);
+		.date{
+			text-align:center;
+			background:#acacac;
+			color:white;
+			padding:20px 20px 20px 20px;
+			.day{
+				font-size:40px;
+				height:40px;
+			}
+			.month{
+				font-size:30px;
+				margin:0;
+			}
+			.year{
+				font-size:20px;
+			}
+		}
+		.content{
+			
+			/*width:80%;*/
+			h2{
+				font-weight:300;
+			}
+			p{
+				font-size:15px;
+				font-weight:300;
+				/*width:80%;*/
+			}
+			span{
+				margin-right:20px;
+				float:right;
+				color:#868585;
+				font-size:20px;
+				img{
+					width:25px;
+					height:25px;
+				}
+			}
+		}
+
+	}
+}
+
+.green{
+	background-color:#41ad49 !important;
+}
+.greenSpan{
+	height:30px !important;
+	color:#41ad49 !important;
+}
+.red{
+	background-color:#e44061 !important;
+}
+.redSpan{
+		height:30px !important;
+		color:#e44061 !important;	
+}
+
+@media screen and (max-width:767px){
+		.Rounds{
+		.col-xs-12{
+
+			margin:auto !important;
+		}
+	}
+}

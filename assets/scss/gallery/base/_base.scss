@@ -1,0 +1,19 @@
+.grid {
+ 	display: block;
+    margin: 20px auto;
+	.grid-item {
+	  	margin-bottom: 20px;
+	  	padding: 10px;
+	  	box-shadow: 0 0 5px rgba(0,0,0,0.6);
+	    -moz-box-shadow: 0 0 5px rgba(0,0,0,0.6);
+	    -webkit-box-shadow: 0 0 5px rgba(0,0,0,0.6);
+	    -o-box-shadow: 0 0 5px rgba(0,0,0,0.6);
+	    a{
+	    	outline: none !important;
+			text-decoration:none;
+			 img {
+			  	width: 300px;
+			}
+		}
+	}
+}
