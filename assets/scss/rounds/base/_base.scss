@@ -12,6 +12,11 @@ body{
 				width: 100%;
 				
 			}
+			@media only screen and (max-width:768px){
+				.date {
+				border-right:0px 
+				}
+			}
 			.date{
 				margin-top: 25px;
 				border-right:1px solid $darkgray;
